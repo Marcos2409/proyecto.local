@@ -1,7 +1,7 @@
 <?php
 return [
     'database' => [
-        'name' => 'proyectophp',
+        'name' => 'cursophp2',
         'username' => 'usercurso',
         'password' => 'php',
         'connection' => 'mysql:host=localhost',
@@ -20,6 +20,13 @@ return [
     ],
     'project' => [
         'namespace' => 'proyecto'
+    ],
+    'security' => [
+        'roles' => [
+            'ROLE_ADMIN' => 3,
+            'ROLE_USER' => 2,
+            'ROLE_ANONYMOUS' => 1
+        ]
     ]
 
 ];

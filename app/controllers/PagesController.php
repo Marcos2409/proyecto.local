@@ -38,10 +38,10 @@ class PagesController
             'layout',
         );
     }
-    public function recipes_details()
+    public function update_recipe()
     {
         Response::renderView(
-            'recipes_details',
+            'update_recipe',
             'layout',
         );
     }

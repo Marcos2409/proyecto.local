@@ -220,7 +220,7 @@
                         </div>
                         <div class="single_customer d-flex">
                             <div class="thumb">
-                                <img src="img/testmonial/2.png" alt="">
+                                <img src="../../public/img/testmonial/2.png" alt="">
                             </div>
                             <div class="customer_meta">
                                 <h3>Adame Nesane</h3>
